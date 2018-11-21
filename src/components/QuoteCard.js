@@ -26,6 +26,7 @@ const QuoteCard = (props) =>
           </button>
           <button
             type="button"
+            onClick={() => removeQuote(quote.id)}
             className="btn btn-danger"
           >
             <span aria-hidden="true">&times;</span>
